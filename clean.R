@@ -2,7 +2,7 @@
 
 func1 <- function(dfStates1)
   {
-  dfStates1 <- readcsv(raw_data)
+  
   #Clean the dataframe
   #Removing the last Row(Puerto Rico). Using the '-' sign.
   dfStates1<- dfStates1[-53,]
@@ -19,9 +19,8 @@ func1 <- function(dfStates1)
   
   #Renaming columns to simplify the data using the colname function
   colnames(dfStates1) <- c("stateName","population","popOver18","percentOver18")
-  dfStates1
   
   return(dfStates1)
 }
-
+dfStates1 <- read.csv(raw_data)
 clean_data <- func1(dfStates1)
