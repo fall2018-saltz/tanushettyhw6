@@ -41,10 +41,16 @@
             "name": "Merge.R"
         },
         {
+            "assigned_to": "tshetty",
             "desc": "",
-            "name": "USArrests.R"
+            "name": "USArrests.R",
+            "task_status": "in progress"
+        },
+        {
+            "desc": "",
+            "name": "MergedDF.R"
         }
     ],
-    "updated_at": "2018-10-04 16:07:01",
+    "updated_at": "2018-10-04 16:11:02",
     "url": "https://github.com/fall2018-saltz/tanushettyhw6"
 }
