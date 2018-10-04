@@ -27,3 +27,4 @@ func1 <- function(dfStates1)
   return(dfStates1)
 }
 
+clean_data <- func1(dfStates1)
