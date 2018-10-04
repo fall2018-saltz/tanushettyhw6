@@ -30,12 +30,15 @@
             "name": "scprc_est_2017_18_pop_res.csv"
         },
         {
-            "name": "clean.R"
+            "name": "data.csv"
         },
         {
-            "name": "data.csv"
+            "assigned_to": "tshetty",
+            "desc": "",
+            "name": "clean.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-04 15:30:57",
+    "updated_at": "2018-10-04 15:53:09",
     "url": "https://github.com/fall2018-saltz/tanushettyhw6"
 }
