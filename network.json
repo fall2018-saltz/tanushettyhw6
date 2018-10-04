@@ -39,8 +39,12 @@
         {
             "desc": "",
             "name": "Merge.R"
+        },
+        {
+            "desc": "",
+            "name": "USArrests.R"
         }
     ],
-    "updated_at": "2018-10-04 16:04:03",
+    "updated_at": "2018-10-04 16:07:01",
     "url": "https://github.com/fall2018-saltz/tanushettyhw6"
 }
