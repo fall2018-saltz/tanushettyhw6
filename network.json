@@ -160,8 +160,11 @@
         },
         {
             "name": "boxplot_Pop.png"
+        },
+        {
+            "name": "boxplot_Murder.png"
         }
     ],
-    "updated_at": "2018-10-10 22:09:18",
+    "updated_at": "2018-10-10 22:09:33",
     "url": "https://github.com/fall2018-saltz/tanushettyhw6"
 }
