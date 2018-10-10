@@ -113,6 +113,16 @@
             ],
             "source": "generating_histogram.R",
             "target": "boxplot_Pop.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "boxplot2",
+                    "type": "png"
+                }
+            ],
+            "source": "generating_histogram.R",
+            "target": "boxplot_Murder.png"
         }
     ],
     "nodes": [
@@ -165,6 +175,6 @@
             "name": "boxplot_Murder.png"
         }
     ],
-    "updated_at": "2018-10-10 22:09:33",
+    "updated_at": "2018-10-10 22:09:43",
     "url": "https://github.com/fall2018-saltz/tanushettyhw6"
 }
