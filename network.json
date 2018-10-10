@@ -78,10 +78,15 @@
             "name": "Merge.csv"
         },
         {
+            "assigned_to": "tshetty",
             "desc": "",
-            "name": "generating_histogram.R"
+            "name": "generating_histogram.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "histogram_pop.png"
         }
     ],
-    "updated_at": "2018-10-10 21:40:28",
+    "updated_at": "2018-10-10 21:57:02",
     "url": "https://github.com/fall2018-saltz/tanushettyhw6"
 }
