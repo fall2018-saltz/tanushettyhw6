@@ -43,6 +43,16 @@
             ],
             "source": "mergedf.R",
             "target": "Merge.csv"
+        },
+        {
+            "ports": [
+                {
+                    "input": "mergeDF",
+                    "type": "csv"
+                }
+            ],
+            "source": "Merge.csv",
+            "target": "generating_histogram.R"
         }
     ],
     "nodes": [
@@ -72,6 +82,6 @@
             "name": "generating_histogram.R"
         }
     ],
-    "updated_at": "2018-10-10 21:40:03",
+    "updated_at": "2018-10-10 21:40:28",
     "url": "https://github.com/fall2018-saltz/tanushettyhw6"
 }
