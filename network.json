@@ -73,6 +73,16 @@
             ],
             "source": "generating_histogram.R",
             "target": "histogram_murder.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "histpop2",
+                    "type": "png"
+                }
+            ],
+            "source": "generating_histogram.R",
+            "target": "histogram_Assault.png"
         }
     ],
     "nodes": [
@@ -113,6 +123,6 @@
             "name": "histogram_Assault.png"
         }
     ],
-    "updated_at": "2018-10-10 21:58:32",
+    "updated_at": "2018-10-10 21:58:45",
     "url": "https://github.com/fall2018-saltz/tanushettyhw6"
 }
