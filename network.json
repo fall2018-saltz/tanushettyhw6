@@ -93,6 +93,16 @@
             ],
             "source": "generating_histogram.R",
             "target": "histogram_rape.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "histpop4",
+                    "type": "png"
+                }
+            ],
+            "source": "generating_histogram.R",
+            "target": "histogram_UrbanPop.png"
         }
     ],
     "nodes": [
@@ -139,6 +149,6 @@
             "name": "histogram_UrbanPop.png"
         }
     ],
-    "updated_at": "2018-10-10 21:59:38",
+    "updated_at": "2018-10-10 21:59:50",
     "url": "https://github.com/fall2018-saltz/tanushettyhw6"
 }
