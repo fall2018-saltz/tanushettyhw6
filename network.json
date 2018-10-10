@@ -49,10 +49,15 @@
             "name": "cleaned_data.csv"
         },
         {
+            "assigned_to": "tshetty",
             "desc": "",
-            "name": "mergedf.R"
+            "name": "mergedf.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "Merge.csv"
         }
     ],
-    "updated_at": "2018-10-10 21:25:19",
+    "updated_at": "2018-10-10 21:35:42",
     "url": "https://github.com/fall2018-saltz/tanushettyhw6"
 }
