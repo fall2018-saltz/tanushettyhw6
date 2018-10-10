@@ -39,10 +39,10 @@ histpop4
 library("ggplot2")
 #using ggplot() to generate the boxplot. we also use aes() to visualize the boxplot with 
 #variables on x and y axes. ggtitle() to display title of graph
-histpop2 <- ggplot(mergeDF, aes(x=factor(0),y=population)) + geom_boxplot() + ggtitle("Boxplot of Population")
-histpop2
+boxplot1 <- ggplot(mergeDF, aes(x=factor(0),y=population)) + geom_boxplot() + ggtitle("Boxplot of Population")
+boxplot1
 
 #using ggplot() to generate the boxplot. we also use aes() to visualize the boxplot with 
 #variables on x and y axes.
-histpop3 <- ggplot(mergeDF, aes(x=factor(0),y=Murder)) + geom_boxplot() + ggtitle("Boxplot of Murder")
-histpop3
+boxplot2 <- ggplot(mergeDF, aes(x=factor(0),y=Murder)) + geom_boxplot() + ggtitle("Boxplot of Murder")
+boxplot2
