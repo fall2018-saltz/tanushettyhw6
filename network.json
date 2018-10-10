@@ -95,8 +95,11 @@
         },
         {
             "name": "histogram_pop.png"
+        },
+        {
+            "name": "histogram_murder.png"
         }
     ],
-    "updated_at": "2018-10-10 21:57:18",
+    "updated_at": "2018-10-10 21:57:54",
     "url": "https://github.com/fall2018-saltz/tanushettyhw6"
 }
