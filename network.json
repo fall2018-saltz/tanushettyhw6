@@ -37,7 +37,7 @@
         {
             "ports": [
                 {
-                    "output": "mergeDF.csv",
+                    "output": "mergeDF",
                     "type": "csv"
                 }
             ],
@@ -68,6 +68,6 @@
             "name": "Merge.csv"
         }
     ],
-    "updated_at": "2018-10-10 21:37:52",
+    "updated_at": "2018-10-10 21:39:20",
     "url": "https://github.com/fall2018-saltz/tanushettyhw6"
 }
