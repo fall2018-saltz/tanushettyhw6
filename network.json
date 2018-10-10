@@ -33,6 +33,16 @@
             ],
             "source": "cleaned_data.csv",
             "target": "mergedf.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "Merge.csv",
+                    "type": "csv"
+                }
+            ],
+            "source": "mergedf.R",
+            "target": "Merge.csv"
         }
     ],
     "nodes": [
@@ -58,6 +68,6 @@
             "name": "Merge.csv"
         }
     ],
-    "updated_at": "2018-10-10 21:35:42",
+    "updated_at": "2018-10-10 21:36:07",
     "url": "https://github.com/fall2018-saltz/tanushettyhw6"
 }
