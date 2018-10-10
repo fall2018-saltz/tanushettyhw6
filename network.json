@@ -103,6 +103,16 @@
             ],
             "source": "generating_histogram.R",
             "target": "histogram_UrbanPop.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "boxplot1",
+                    "type": "png"
+                }
+            ],
+            "source": "generating_histogram.R",
+            "target": "boxplot_Pop.png"
         }
     ],
     "nodes": [
@@ -152,6 +162,6 @@
             "name": "boxplot_Pop.png"
         }
     ],
-    "updated_at": "2018-10-10 22:09:06",
+    "updated_at": "2018-10-10 22:09:18",
     "url": "https://github.com/fall2018-saltz/tanushettyhw6"
 }
