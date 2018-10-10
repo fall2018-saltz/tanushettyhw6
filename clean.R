@@ -21,4 +21,5 @@ func1 <- function(dfStates1)
     return(dfStates1)
 }
 
+cleandata <- cleandata(raw_data)
 
