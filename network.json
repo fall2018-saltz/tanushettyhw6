@@ -134,8 +134,11 @@
         },
         {
             "name": "histogram_rape.png"
+        },
+        {
+            "name": "histogram_UrbanPop.png"
         }
     ],
-    "updated_at": "2018-10-10 21:59:20",
+    "updated_at": "2018-10-10 21:59:38",
     "url": "https://github.com/fall2018-saltz/tanushettyhw6"
 }
