@@ -13,6 +13,16 @@
             ],
             "source": "scprc_est_2017_18_pop_res.csv",
             "target": "clean.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "func1",
+                    "type": "csv"
+                }
+            ],
+            "source": "clean.R",
+            "target": "cleaned_data.csv"
         }
     ],
     "nodes": [
@@ -37,6 +47,6 @@
             "name": "cleaned_data.csv"
         }
     ],
-    "updated_at": "2018-10-10 21:23:40",
+    "updated_at": "2018-10-10 21:23:53",
     "url": "https://github.com/fall2018-saltz/tanushettyhw6"
 }
