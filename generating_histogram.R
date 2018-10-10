@@ -20,12 +20,12 @@ histpop2
 
 #using ggplot() to generate a histogram with Rape on the x-axis from the mergeDataframe
 #dataset.
-histpop3 <- ggplot(mergeDataframe, aes(x=Rape)) + geom_histogram(binwidth=1) + ggtitle("Histogram of Rape")
+histpop3 <- ggplot(mergeDF, aes(x=Rape)) + geom_histogram(binwidth=1) + ggtitle("Histogram of Rape")
 histpop3
 
 #using ggplot() to generate a histogram with UrbanPop on the x-axis from the mergeDataframe
 #dataset.
-histpop4 <- ggplot(mergeDataframe, aes(x=UrbanPop)) + geom_histogram(binwidth=2) + ggtitle("Histogram of UrbanPop")
+histpop4 <- ggplot(mergeDF, aes(x=UrbanPop)) + geom_histogram(binwidth=2) + ggtitle("Histogram of UrbanPop")
 histpop4
 
 #to generate histograms so that they all look the same, we have to adjust the binwidth
