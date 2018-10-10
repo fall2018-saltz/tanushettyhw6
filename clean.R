@@ -22,4 +22,5 @@ func1 <- function(dfStates1)
 }
 
 cleandata <- cleandata(raw_data)
+str(cleandata)
 
