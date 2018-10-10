@@ -13,17 +13,6 @@
             ],
             "source": "scprc_est_2017_18_pop_res.csv",
             "target": "clean.R"
-        },
-        {
-            "ports": [
-                {
-                    "input": "clean_data",
-                    "output": "clean",
-                    "type": "r_obj"
-                }
-            ],
-            "source": "clean.R",
-            "target": "Merge.R"
         }
     ],
     "nodes": [
@@ -43,8 +32,11 @@
         {
             "desc": "",
             "name": "MergedDF.R"
+        },
+        {
+            "name": "cleaned_data.csv"
         }
     ],
-    "updated_at": "2018-10-10 21:11:01",
+    "updated_at": "2018-10-10 21:23:40",
     "url": "https://github.com/fall2018-saltz/tanushettyhw6"
 }
