@@ -1,4 +1,5 @@
 
+#Copying USArrest into a local variable
 arrests <- USArrests
 
 rownames(func1) <- as.vector(func1[,"stateName"])
