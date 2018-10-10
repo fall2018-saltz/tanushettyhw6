@@ -31,3 +31,18 @@ histpop4
 #to generate histograms so that they all look the same, we have to adjust the binwidth
 #attribute in the geom_histogram() function because different variables on x-axis will have 
 #different amount of data. So, we have to graoup the data into bins accordingly.
+
+
+
+
+#importing ggplot2 library to generate boxplots
+library("ggplot2")
+#using ggplot() to generate the boxplot. we also use aes() to visualize the boxplot with 
+#variables on x and y axes. ggtitle() to display title of graph
+histpop2 <- ggplot(mergeDF, aes(x=factor(0),y=population)) + geom_boxplot() + ggtitle("Boxplot of Population")
+histpop2
+
+#using ggplot() to generate the boxplot. we also use aes() to visualize the boxplot with 
+#variables on x and y axes.
+histpop3 <- ggplot(mergeDF, aes(x=factor(0),y=Murder)) + geom_boxplot() + ggtitle("Boxplot of Murder")
+histpop3
