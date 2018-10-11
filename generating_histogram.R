@@ -41,3 +41,5 @@ boxplot1
 #Function aes() is used to visualize the boxplot with variables on x and y axes.
 boxplot2 <- ggplot(mergeDF, aes(x=factor(0),y=Murder)) + geom_boxplot() + ggtitle("Boxplot of Murder")
 boxplot2
+
+#The histogram shows the frequency of the data which is quite useful for visualization, whereas the box shows the median value, quartiles and 
