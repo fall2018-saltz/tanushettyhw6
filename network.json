@@ -189,8 +189,11 @@
             "desc": "",
             "name": "BarChart.R",
             "task_status": "in progress"
+        },
+        {
+            "name": "barchart_Murders.png"
         }
     ],
-    "updated_at": "2018-10-11 01:24:34",
+    "updated_at": "2018-10-11 01:27:32",
     "url": "https://github.com/fall2018-saltz/tanushettyhw6"
 }
