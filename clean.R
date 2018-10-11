@@ -23,6 +23,6 @@ func1 <- function(dfStates1)
     return(dfStates1)
 }
 
-func1 <- func1(raw_data)
+func1 <- func1(dfStates1)
 str(func1)
 
