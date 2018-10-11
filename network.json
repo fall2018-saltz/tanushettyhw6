@@ -127,11 +127,11 @@
         {
             "ports": [
                 {
-                    "output": "mergeDF",
-                    "type": "r_obj"
+                    "input": "mergeDF",
+                    "type": "csv"
                 }
             ],
-            "source": "generating_histogram.R",
+            "source": "Merge.csv",
             "target": "BarChart.R"
         }
     ],
@@ -185,10 +185,12 @@
             "name": "boxplot_Murder.png"
         },
         {
+            "assigned_to": "tshetty",
             "desc": "",
-            "name": "BarChart.R"
+            "name": "BarChart.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-10 22:11:34",
+    "updated_at": "2018-10-11 01:24:34",
     "url": "https://github.com/fall2018-saltz/tanushettyhw6"
 }
