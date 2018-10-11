@@ -142,7 +142,7 @@
                 }
             ],
             "source": "BarChart.R",
-            "target": "barchart_MurderPerState.png"
+            "target": "barchart_MurdersPerState.png"
         }
     ],
     "nodes": [
@@ -201,9 +201,9 @@
             "task_status": "in progress"
         },
         {
-            "name": "barchart_MurderPerState.png"
+            "name": "barchart_MurdersPerState.png"
         }
     ],
-    "updated_at": "2018-10-11 01:32:19",
+    "updated_at": "2018-10-11 01:32:30",
     "url": "https://github.com/fall2018-saltz/tanushettyhw6"
 }
