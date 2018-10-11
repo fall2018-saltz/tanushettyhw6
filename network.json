@@ -137,7 +137,7 @@
         {
             "ports": [
                 {
-                    "output": "barchart1",
+                    "output": "barChart1",
                     "type": "png"
                 }
             ],
@@ -204,6 +204,6 @@
             "name": "barchart_Murders.png"
         }
     ],
-    "updated_at": "2018-10-11 01:27:55",
+    "updated_at": "2018-10-11 01:28:24",
     "url": "https://github.com/fall2018-saltz/tanushettyhw6"
 }
