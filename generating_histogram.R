@@ -37,7 +37,7 @@ library("ggplot2")
 boxplot1 <- ggplot(mergeDF, aes(x=factor(0),y=population)) + geom_boxplot() + ggtitle("Boxplot of Population")
 boxplot1
 
-#using ggplot() to generate the boxplot. we also use aes() to visualize the boxplot with 
-#variables on x and y axes.
+#using ggplot() to generate the boxplot. 
+#Function aes() is used to visualize the boxplot with variables on x and y axes.
 boxplot2 <- ggplot(mergeDF, aes(x=factor(0),y=Murder)) + geom_boxplot() + ggtitle("Boxplot of Murder")
 boxplot2
