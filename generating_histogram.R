@@ -42,4 +42,5 @@ boxplot1
 boxplot2 <- ggplot(mergeDF, aes(x=factor(0),y=Murder)) + geom_boxplot() + ggtitle("Boxplot of Murder")
 boxplot2
 
-#The histogram shows the frequency of the data which is quite useful for visualization, whereas the box shows the median value, quartiles and 
+#The histogram shows the frequency of the data which is quite useful for visualization
+#However,the boxplot shows the median, quartiles, maximum, minimum and the Interquartile range all in one graph.
