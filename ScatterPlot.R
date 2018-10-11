@@ -1,6 +1,6 @@
 
 library("ggplot2")
-#Generating a scatter plot having population on the X axis, the percent over 18 on the y axis, 
-#and the size & color representing the murder rate
+#Creating a scatterplot that has population on the x axis and percentOver18 on the y axis
+#The colour and size represents the murder rate
 ScatterPlot <- ggplot(mergeDF, aes(x= population, y =percentOver18)) + geom_point(aes(size = Murder, color = Murder)) + ggtitle("Scatter Plot")
 ScatterPlot
