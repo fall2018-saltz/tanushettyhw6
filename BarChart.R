@@ -11,7 +11,7 @@ murdersPerState
 barChart1 <- ggplot(mergeDF, aes(x=stateName, y=numMurders)) + geom_col() + ggtitle("Bar chart of murders per state")
 barChart1
 
-#generating a barchart to rotate text on x-axis using theme() and aes() to visualize the graph
+#Creating a barchart for number of murders per state using ggplot()
 barChart2 <- ggplot(mergeDF, aes(x=stateName, y=numMurders)) + geom_col() + ggtitle("Total Murders") + theme(axis.text.x = element_text(angle = 90, hjust = 1))
 barChart2
 
