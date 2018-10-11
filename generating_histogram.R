@@ -7,24 +7,21 @@ library("ggplot2")
 histpop <- ggplot(mergeDF, aes(x=population)) + geom_histogram(binwidth=500000) + ggtitle("Histogram of Population")
 histpop
 
-#using ggplot() to generate a histogram with murder on the x-axis from the mergeDataframe
-#dataset. We are using geom_histogram() function with binwidth attribute to group the data into
-#bins. Here, we are using 1 as binwidth because the murder rate does not have large numbers.
+
+#Creating a histogram for murder using ggplot()
+#Since the murder rate does not have large numbers, we use the binwidth as 1
 histpop1 <- ggplot(mergeDF, aes(x=Murder)) + geom_histogram(binwidth=1) + ggtitle("Histogram of Murder")
 histpop1
 
-#using ggplot() to generate a histogram with Assault on the x-axis from the mergeDataframe
-#dataset. we are also using ggtitle() to display the title of the graph.
+#Creating a histogram for Assault using ggplot()
 histpop2 <- ggplot(mergeDF, aes(x=Assault)) + geom_histogram(binwidth=10) + ggtitle("Histogram of Assault")
 histpop2
 
-#using ggplot() to generate a histogram with Rape on the x-axis from the mergeDataframe
-#dataset.
+#Creating a histogram for Rape using ggplot()
 histpop3 <- ggplot(mergeDF, aes(x=Rape)) + geom_histogram(binwidth=1) + ggtitle("Histogram of Rape")
 histpop3
 
-#using ggplot() to generate a histogram with UrbanPop on the x-axis from the mergeDataframe
-#dataset.
+#Creating a histogram for Urban Population using ggplot()
 histpop4 <- ggplot(mergeDF, aes(x=UrbanPop)) + geom_histogram(binwidth=2) + ggtitle("Histogram of UrbanPop")
 histpop4
 
