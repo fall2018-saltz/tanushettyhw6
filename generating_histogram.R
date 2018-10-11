@@ -44,3 +44,4 @@ boxplot2
 
 #The histogram shows the frequency of the data which is quite useful for visualization
 #However,the boxplot shows the median, quartiles, maximum, minimum and the Interquartile range all in one graph.
+#Thus we have a better understanding of the particular data using boxplot
