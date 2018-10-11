@@ -1,5 +1,6 @@
 
 #Read the census dataset 
+#We clean the dataset here in the function func1
 
 func1 <- function(dfStates1)
   {
