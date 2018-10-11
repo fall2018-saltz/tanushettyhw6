@@ -3,6 +3,7 @@
 library("ggplot2")
 #Creating a histogram for population using ggplot()
 #Using geom_histogram() with binwidth attribute to group the data 
+#ggtitle() function gives the main title for the histogram
 histpop <- ggplot(mergeDF, aes(x=population)) + geom_histogram(binwidth=500000) + ggtitle("Histogram of Population")
 histpop
 
