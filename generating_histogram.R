@@ -25,11 +25,8 @@ histpop3
 histpop4 <- ggplot(mergeDF, aes(x=UrbanPop)) + geom_histogram(binwidth=2) + ggtitle("Histogram of UrbanPop")
 histpop4
 
-#to generate histograms so that they all look the same, we have to adjust the binwidth
-#attribute in the geom_histogram() function because different variables on x-axis will have 
-#different amount of data. So, we have to graoup the data into bins accordingly.
-
-
+#To binwidth is adjusted in each Histogram since each variable has different ranges of data.
+#Hence the data is gouped into bins
 
 
 #importing ggplot2 library to generate boxplots
