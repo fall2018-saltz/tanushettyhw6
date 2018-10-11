@@ -215,8 +215,11 @@
         },
         {
             "name": "barchart_TotalMurders.png"
+        },
+        {
+            "name": "barchart_SortMurders.png"
         }
     ],
-    "updated_at": "2018-10-11 01:33:28",
+    "updated_at": "2018-10-11 01:34:16",
     "url": "https://github.com/fall2018-saltz/tanushettyhw6"
 }
