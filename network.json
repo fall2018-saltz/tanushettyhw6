@@ -253,10 +253,15 @@
             "name": "barchart_percentOver18.png"
         },
         {
+            "assigned_to": "tshetty",
             "desc": "",
-            "name": "ScatterPlot.R"
+            "name": "ScatterPlot.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "scatterplot.png"
         }
     ],
-    "updated_at": "2018-10-11 01:37:46",
+    "updated_at": "2018-10-11 01:39:56",
     "url": "https://github.com/fall2018-saltz/tanushettyhw6"
 }
