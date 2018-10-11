@@ -1,14 +1,13 @@
 
 #importing library for ggplot2 to generate barcharts
 library("ggplot2")
-#calculating the number of murders per state and then displaying the new subset of mergeDataframe
-#in murdersPerState
+
+#Calculating the number of murders per state 
 mergeDF$numMurders <- as.integer(mergeDF$population*mergeDF$Murder/100000)
 murdersPerState <- mergeDF[,c(2,3,4,10)]
 murdersPerState
 
-#generating a barchart for number of murders per state using ggplot() and aes() to 
-#visualize the graph
+#Creating a barchart for number of murders per state using ggplot() 
 barChart1 <- ggplot(mergeDF, aes(x=stateName, y=numMurders)) + geom_col() + ggtitle("Bar chart of murders per state")
 barChart1
 
