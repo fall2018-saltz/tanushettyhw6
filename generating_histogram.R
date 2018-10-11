@@ -31,8 +31,9 @@ histpop4
 
 #importing ggplot2 library to generate boxplots
 library("ggplot2")
-#using ggplot() to generate the boxplot. we also use aes() to visualize the boxplot with 
-#variables on x and y axes. ggtitle() to display title of graph
+
+#using ggplot() to generate the boxplot.
+#The function aes() is used to visualize the boxplot with variables on x and y axes.
 boxplot1 <- ggplot(mergeDF, aes(x=factor(0),y=population)) + geom_boxplot() + ggtitle("Boxplot of Population")
 boxplot1
 
