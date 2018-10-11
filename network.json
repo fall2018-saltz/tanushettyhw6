@@ -153,6 +153,16 @@
             ],
             "source": "BarChart.R",
             "target": "barchart_TotalMurders.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "barChart3",
+                    "type": "png"
+                }
+            ],
+            "source": "BarChart.R",
+            "target": "barchart_SortMurders.png"
         }
     ],
     "nodes": [
@@ -220,6 +230,6 @@
             "name": "barchart_SortMurders.png"
         }
     ],
-    "updated_at": "2018-10-11 01:34:16",
+    "updated_at": "2018-10-11 01:34:31",
     "url": "https://github.com/fall2018-saltz/tanushettyhw6"
 }
