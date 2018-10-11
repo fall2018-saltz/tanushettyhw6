@@ -133,6 +133,16 @@
             ],
             "source": "Merge.csv",
             "target": "BarChart.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "barchart1",
+                    "type": "png"
+                }
+            ],
+            "source": "BarChart.R",
+            "target": "barchart_Murders.png"
         }
     ],
     "nodes": [
@@ -194,6 +204,6 @@
             "name": "barchart_Murders.png"
         }
     ],
-    "updated_at": "2018-10-11 01:27:32",
+    "updated_at": "2018-10-11 01:27:55",
     "url": "https://github.com/fall2018-saltz/tanushettyhw6"
 }
